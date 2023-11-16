@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-family: "Open Sans", sans-serif;
+  vertical-align: baseline;
+  border: none;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background-image: url("https://img.freepik.com/premium-photo/top-view-travel-outfit-accessories-equipment-with-copy-space-black-background_146508-642.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body header {
+  position: fixed;
+  width: 100%;
+  background: transparent;
+  padding: 27px 40px;
+  transition: all 0.5s ease;
+  top: 0;
+  right: 0;
+}
+body header .navbar .container .logo {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #ffa343;
+}
+body header .navbar .container .logo span {
+  color: #ff0000;
+}
+body header .navbar .container .navbar-nav li a {
+  color: #fff;
+}
+body header .navbar .container #social_network a {
+  color: #fff;
+  margin-right: 30px;
+}
+body .home {
+  padding: 120px 17% 90px;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+body .home #home_text h5 {
+  color: #ffa343;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  letter-spacing: 6px;
+}
+body .home #home_text h1 {
+  font-weight: 700;
+  font-size: 5rem;
+  margin-bottom: 20px;
+  color: black;
+  line-height: 1.2;
+}
+body .home #home_text p {
+  line-height: 120%;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.7rem;
+  color: #FFFFFF;
+  padding: 0;
+  position: absolute;
+  top: 500px;
+  font-family: "Poppins", sans-serif;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+body .home #home_text .btn {
+  display: inline-block;
+  padding: 13px 40px;
+  background-color: #ffa343;
+  color: black;
+  font-size: 1.7rem;
+  font-weight: 700;
+  position: absolute;
+  bottom: 2px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+body .home #home_text .btn:hover {
+  transform: translateX(10px);
+  border: 2px solid black;
+  background: transparent;
+  color: white;
+}
+body .feature .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 9rem;
+  position: relative;
+}
+body .feature .container .first_part img {
+  margin: 40px;
+  margin-top: 500px;
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+body .feature .container .second_part {
+  position: relative;
+}
+body .feature .container .second_part h5 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #ffa343;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin: 10px;
+  margin-top: 480px;
+}
+body .feature .container .second_part h1 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  line-height: 1.2;
+  color: #FFFFFF;
+}
+body .feature .container .second_part p {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6705882353);
+  margin-bottom: 20px;
+  line-height: 30px;
+  width: 800px;
+}
+body .feature .container .second_part .btn {
+  display: inline-block;
+  padding: 5px 20px;
+  background-color: #ffa343;
+  color: black;
+  font-size: 1.7rem;
+  font-weight: 700;
+  position: absolute;
+  bottom: -100px;
+  margin-left: 10px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+body .feature .container .second_part .btn:hover {
+  transform: translateX(10px);
+  border: 2px solid black;
+  background: transparent;
+  color: white;
+}
+body .tours .text {
+  color: white;
+  text-align: center;
+  margin-top: 200px;
+}
+body .tours .container {
+  display: flex;
+  position: relative;
+  margin-top: 40px;
+}
+body .tours .container img {
+  width: 260px;
+  height: 450px;
+  border-radius: 10px;
+}
+body .tours .container h6 {
+  font-size: 1.1333333333rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+body .tours .container .btn {
+  display: inline-block;
+  padding: 2px;
+  background-color: #ffa343;
+  color: black;
+  font-size: 1.7rem;
+  font-weight: 700;
+  position: absolute;
+  bottom: -100px;
+  margin-left: 70px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+body .tours .container .btn:hover {
+  transform: translateX(10px);
+  border: 2px solid black;
+  background: transparent;
+  color: white;
+}
+body .slick_slider .slider-prev {
+  left: 70px;
+  /* Adjust this value to position the button */
+  margin-left: 90px;
+}
+body .slick_slider img {
+  width: 190px;
+  margin-top: 120px;
+  height: 255px;
+  margin-right: 100px;
+}
+body .container {
+  display: flex;
+  align-items: center;
+  gap: 11rem;
+  justify-content: center;
+  margin-top: 100px;
+  position: relative;
+}
+body .container .first_part h2 {
+  font-size: 2.1rem;
+  font-weight: 400;
+  color: #fff;
+}
+body .container .first_part p {
+  font-size: 1.7rem;
+  color: #ffa343;
+}
+body .container .second_part .btn {
+  display: inline-block;
+  padding: 2px;
+  background-color: #ffa343;
+  color: black;
+  font-size: 0.85rem;
+  font-weight: 700;
+  position: absolute;
+  bottom: 0px;
+  margin: 30px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+body .container .footer-box {
+  display: flex;
+  flex-direction: column;
+}
+body .container .footer-box h3 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+body .container .footer-box a {
+  color: #fff;
+  margin-bottom: 0.85rem;
+  transition: all 0.5s ease;
+}
+body .container .footerBox {
+  margin-bottom: 110px;
+}
+body .container .footerBox h3 {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+body .container .footerBox a {
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    gap: 6rem;
+  }
+  .footer-box,
+  .footerBox {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 992px) {
+  .home {
+    padding: 90px 17% 70px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+    margin-top: 50px;
+  }
+  .slick_slider .slider-prev {
+    margin-left: 0;
+  }
+  .slick_slider img {
+    width: 140px;
+    margin-top: 80px;
+    height: 190px;
+    margin-right: 0;
+  }
+  .footer-box,
+  .footerBox {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    gap: 3rem;
+  }
+  .footer-box,
+  .footerBox {
+    margin-bottom: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
